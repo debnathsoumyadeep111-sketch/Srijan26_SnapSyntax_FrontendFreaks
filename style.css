@@ -1,0 +1,39 @@
+/* 1. Basic Page Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* 2. Header Styling */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 3. Main Content Area */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 4. List Styling */
+ul {
+    list-style-type: square;
+}
+
+/* 5. Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    color: #777;
+}

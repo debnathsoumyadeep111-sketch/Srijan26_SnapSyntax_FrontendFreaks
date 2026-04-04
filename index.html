@@ -3,30 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Tech Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>kire sob bhalo toh?</h1>
-        <p>Ai site ta ke as a reference use kor.</p>
+    <nav class="navbar">
+        <div class="logo">Innovation<span>Hub</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#specializations">Focus Areas</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <h1>Engineering the Digital Frontier</h1>
+            <p>Specializing in the intersection of IoT ecosystems, Cybersecurity, and Blockchain technology.</p>
+            <a href="#specializations" class="cta-button">View Our Specializations</a>
+        </div>
     </header>
 
-    <section class="main-content">
-        <h2>IMPORTANT!!!</h2>
-        <p>CSS part ta ektu tough ache ami CSS ta niye boschi.</p>
+    <section id="specializations" class="container">
+        <h2 class="section-title">Core Technical Pillars</h2>
         
-        <h3>HTML Part</h3>
-        <ul>
-            <li>ami file pathachi oita ke ai ghete arektu improve kor aritro</li>
-            <li>ANIK amake call korish CSS niye boshchi, kichu bhalo bhalo site er reference lagbe</li>
-            <li>Mayukh oi dada tar theke khobor ne ki topic e banale bhalo hoye aar Github repository ta niye</li>
-        </ul>
+        <div class="card-grid">
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=500&q=80" alt="IoT Hardware">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Hardware</span>
+                    <h3>Internet of Things</h3>
+                    <p>We design end-to-end IoT ecosystems. From sensor data collection using ESP32 and Arduino to real-time monitoring via MQTT protocols, we bridge the gap between physical hardware and cloud analytics.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=500&q=80" alt="Cyber Security">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Security</span>
+                    <h3>Cyber Defense</h3>
+                    <p>Focusing on proactive threat detection and network hardening. Our approach involves implementing Zero-Trust architectures and securing communication channels against modern vulnerabilities and data breaches.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=500&q=80" alt="Blockchain Tech">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Web3</span>
+                    <h3>Blockchain Systems</h3>
+                    <p>Developing decentralized ledgers that ensure data integrity. We explore Ethereum-based smart contracts and distributed storage solutions to create transparent, tamper-proof digital environments.</p>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <footer>
-        <p>Connect with me on Social Media</p>
+    <footer id="contact">
+        <p>© 2026 Tech Team Portfolio | Developed for University Competition</p>
     </footer>
 
 </body>
